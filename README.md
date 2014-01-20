@@ -72,7 +72,8 @@ Now you can use dynamic and static methods without specifying callbacks.
 * attributeNameEndsWith
 
 
-Todo:
+# Todo:
+
 * Take arbitrary number of parameters  
 * Factor out redefining method into its own package
 * Create an exec_ function in order to support queries with where options 
