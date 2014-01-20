@@ -29,9 +29,9 @@ NO.  Don't do that.  This doesn't actually flip the paradigm of the continuation
     User.find_({ where: { name: { '>=': 'a' } }, limit: 15, skip: 1, sort: 'name ASC' });
 
 # Limitations
-* Don't use this in production.  
-* Don't use this in production.
-* You can't assign the results to variables as in "var users = User.find_();"
+* Don't use this in production code.  
+* You won't be able to use the results of queries for anything until it finishes the work.  That means that running multiple lines in console will also give you problems.
+* You can't assign the results to variables as in "var users = User.find_();" (this is a specific 
 * You can't use the query builder methods of .limit, .sort, .where, .skip in conjunction queries
 
 # Example Usage
