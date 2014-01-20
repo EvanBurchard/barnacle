@@ -1,0 +1,27 @@
+{
+  "name": "barnacle",
+  "description": "Simplified query interface for sails/waterline console",
+  "keywords": [
+    "sails",
+    "waterline",
+    "console"
+  ],
+  "main": "./barnacle",
+  "version": "0.0.1",
+  "author": {
+    "name": "Evan Burchard",
+    "url": "http://github.com/EvanBurchard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/EvanBurchard/barnacle.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "bugs": {
+    "url": "http://github.com/EvanBurchard/barnacle/issues"
+  }
+}
